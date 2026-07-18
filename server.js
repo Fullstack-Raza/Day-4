@@ -1,3 +1,4 @@
+require("dotenv").config()
 const app = require("./src/app.js")
 const conncetToDB = require("./src/config/database.js")
 conncetToDB()
